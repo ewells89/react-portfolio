@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from "../../components/ProjectCard/ProjectCard"
+import Projects from "../../projects"
 
 const Portfolio = () => {
     return (
@@ -24,7 +25,9 @@ const Portfolio = () => {
                         <div class="col-md-1"></div>
                     </div>
                 </div>
-            <ProjectCard />
+            {Projects.map((projects) => (
+            <ProjectCard {...projects} key={projects.id}/>
+            ))}
         </div>
     );
 };
