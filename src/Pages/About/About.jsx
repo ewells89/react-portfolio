@@ -6,6 +6,26 @@ const About = () => {
     return (
         <div>
             <section className="bio" id="bio">
+            <div className="container">
+                    <div className="row">
+                        <div className="col-md-3"></div>
+                        <div className="col-md-6">
+                            <h3>About</h3>
+                        </div>
+                        <div className="col-md-3"></div>
+                    </div>
+                </div>
+
+                <div className="container" id="ratings">
+                    <div className="row">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
+                            <hr></hr>
+                        </div>
+                        <div className="col-md-1"></div>
+                    </div>
+                </div>
+
                 <div className="container">
                     <div className="row">
                         <div className="col-md-1"></div>
@@ -16,7 +36,7 @@ const About = () => {
                                     <img src={Elyse} className="mx-auto" id="myPhoto" alt="picture of me"/>
                                 </div>
                                 <div className="col-md-9">
-                                    <h2>About</h2>
+
                                     
                                     <p>I am a Business Analyst working in the F&I industry.  I work 
                                     for a company that provides extended warranties to many clients
