@@ -1,10 +1,50 @@
 [
     {
         "id":1,
-        "title":"One",
-        "description":"Project One",
-        "ghlink":"",
-        "thumbnail":"./images/ISSProjectscreenshot01-index",
-        "imgalt":"alt text for the image"
+        "title":"ISS Tracker",
+        "description":"Application to track the current location of the International Space Station, local pass-over times based on user location, forecast for pass over times, live freed from the ISS, and information about the crew members aboard.",
+        "ghlink":"https://github.com/ewells89/group-22-project1",
+        "thumbnail":"./images/ISSProjectscreenshot01-index.png",
+        "imgalt":"screenshot of ISS application"
+    },
+    {
+        "id":2,
+        "title":"A Novel Choice",
+        "description":"Application to suggest and vote for novels to be read by a specific book club. Users can search for their club, add a book suggestion, and vote on books suggested by other users.",
+        "ghlink":"https://github.com/ewells89/project-2-A-Novel-Choice",
+        "thumbnail":"./images/ANovelChoiceProjectscreenshot-01-admin.png",
+        "imgalt":"screenshot of A Novel Choice application"
+    },
+    {
+        "id":3,
+        "title":"Password Generator",
+        "description":"Application to randomly generate a password based on various prompts from the user, including mixed cases, special characters, and numbers.",
+        "ghlink":"https://github.com/ewells89/bootcamp-homework03-password-generator",
+        "thumbnail":"./images/PasswordGeneratorscreenshot01.png",
+        "imgalt":"screenshot of Password Generator application"
+    },
+    {
+        "id":4,
+        "title":"Employee Directory",
+        "description":"Application to dynamically display a list of employees returned from an API response. Employee names are searchable/filterable, and the data table can be sorted on an employee's last name.",
+        "ghlink":"https://github.com/ewells89/bootcamp-homework-19-employee-directory",
+        "thumbnail":"./images/screenshot-of-app-employee-tracker.png",
+        "imgalt":"screenshot of Employee Tracker application"
+    },
+    {
+        "id":5,
+        "title":"Fitness Tracker",
+        "description":"Application utilizing full mongoDB crud routes to add, store, edit, and remove workouts.",
+        "ghlink":"https://github.com/ewells89/bootcamp-homework-17-workout-tracker",
+        "thumbnail":"./images/screenshot-of-app-workout-tracker.png",
+        "imgalt":"screenshot of Employee Tracker application"
+    },
+    {
+        "id":6,
+        "title":"Progressive Budget",
+        "description":"Application using mongoDB to add and manipulate budget data.",
+        "ghlink":"https://github.com/ewells89/bootcamp-homework-18-progressive-budget",
+        "thumbnail":"./images/screenshot-of-app-budget-tracker",
+        "imgalt":"screenshot of Employee Tracker application"
     }
 ]
