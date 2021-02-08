@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <div>
-            <nav className="nav">
+            <div className="row" id="navBanner"></div>
+            <nav className="nav" id="navbar">
                 <a className="nav-link">
                     <Link to="/" className={window.location.pathname === "/" ||window.location.pathname === "/About"? "nav-link active": "nav-link"}>About</Link> 
                 </a>
